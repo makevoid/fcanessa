@@ -1,0 +1,6 @@
+.DS_Store
+.log
+.sqlite
+.pid
+.svn
+.sass-cache
