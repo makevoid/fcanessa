@@ -8,6 +8,7 @@
     %meta{ name: "description", content: "Hello! I'm Francesco Canessa, a software developer specialized in web development. Contact me, I like software, open source and beer!" }
     %meta{ name: "keywords", content: "francesco, canessa, web, developer, software, ruby, rails, ios" }    
     %meta{ name: "author", content: "" }    
+    %link{ rel: "profile", href: "http://microformats.org/profile/hcard" }
     -# %meta{ name: "viewport", content: "width=device-width, initial-scale=1.0" }
     %script{ src: "/js/modernizr.js", type: "text/javascript" }
   %body{ class: body_class }
@@ -15,7 +16,7 @@
       #container
         %header
           %h1 
-            Francesco Canessa 
+            - link_to "Francesco Canessa", "/" 
             %span web development and more!
         %nav
         #content

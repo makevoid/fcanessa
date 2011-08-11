@@ -60,7 +60,7 @@ $bg_cont: #FFF
 $txt: #222
 $main: #999
 $alt: #666
-$links: #444
+$links: #1A55A2
 
 @font-face
   font-family: Guardian
@@ -84,8 +84,9 @@ body
 
 a
   color: $links
+  font-weight: bold
 a:hover
-  color: $links + #111
+  color: $links + #222
 
 input[type='submit'], input.submit, a.button, nav a
   +button
@@ -127,3 +128,27 @@ ul#profiles
     
 #photo
   float: right
+  
+div.vcard, address.vcard
+  border: 1px solid #666
+  margin: 5px 5px 10px
+  padding: 5px
+  font-size: 0.8em
+  line-height: 1.35em
+  display: block
+  width: 450px
+  img.photo
+    padding: 3px 10px 3px 3px
+    float: left
+  div.vcard_data
+  a
+    display: block
+    font-style:  normal
+  p 
+    margin: 7px 0 0
+
+article p 
+  line-height: 1.4em
+  
+p.this_vcard
+  margin-top: 10px
