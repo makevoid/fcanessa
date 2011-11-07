@@ -27,6 +27,7 @@ class Fcanessa < Sinatra::Base
   def not_found(object=nil)
     halt 404, "404 - Page Not Found"
   end
+  
 
   get "/" do
     haml :index
@@ -36,4 +37,7 @@ class Fcanessa < Sinatra::Base
     sass :main
   end
   
+  get "/*" do
+    not_found
+  end
 end
