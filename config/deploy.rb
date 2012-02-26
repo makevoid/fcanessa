@@ -1,7 +1,7 @@
 
 set :application, "fcanessa"
 
-set :domain,      "makevoid.com"
+set :domain,      "kim.makevoid.com"
 
 # git
 
