@@ -17,13 +17,11 @@ GEM
     sass (3.1.7)
     sinatra (1.2.6)
       rack (~> 1.1)
-      tilt (< 2.0, >= 1.2.2)
+      tilt (>= 1.2.2, < 2.0)
     sinatra-advanced-routes (0.5.1)
       monkey-lib (~> 0.5.0)
       sinatra (~> 1.0)
       sinatra-sugar (~> 0.5.0)
-    sinatra-content-for (0.2)
-      sinatra
     sinatra-reloader (0.5.0)
       sinatra (~> 1.0)
       sinatra-advanced-routes (~> 0.5.0)
@@ -40,6 +38,5 @@ DEPENDENCIES
   rack-flash
   sass
   sinatra
-  sinatra-content-for
   sinatra-reloader
   voidtools!

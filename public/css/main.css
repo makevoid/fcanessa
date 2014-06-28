@@ -1,0 +1,152 @@
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+  border: none; }
+
+*, html, body {
+  margin: 0;
+  padding: 0; }
+
+img {
+  border: 0; }
+
+ul {
+  list-style-type: none; }
+
+li {
+  display: inline; }
+
+.clear {
+  clear: both; }
+
+a {
+  text-decoration: none; }
+
+@font-face {
+  font-family: Guardian;
+  src: url(/fonts/guardian.eot); }
+
+@font-face {
+  font-family: Guardian;
+  src: url("/fonts/guardian.otf"); }
+
+html, body {
+  height: 100%; }
+
+body {
+  background: #aaaaaa;
+  font-family: sans-serif, Helvetica, Arial, Verdana;
+  color: #222222;
+  font-size: 135%;
+  height: 100%; }
+
+a {
+  color: #1a55a2;
+  font-weight: bold; }
+
+a:hover {
+  color: #3c77c4; }
+
+input[type='submit'], input.submit, a.button, nav a {
+  display: inline-block;
+  padding: 0.1em 1em 0.12em;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.3em;
+  -webkit-border-radius: ".5em";
+  -moz-border-radius: ".5em";
+  border-radius: ".5em";
+  border: solid 1px #cccccc;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  border: solid 1px #919191;
+  background-color: #999999;
+  background: -webkit-gradient(linear, left top, left bottom, from(#bababa), to(#999999));
+  background: -moz-linear-gradient(top, #bababa, #999999);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bababa', endColorstr='#999999');
+  color: #f4f4f4;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  font-size: 1.15em; }
+  input[type='submit']:hover, input.submit:hover, a.button:hover, nav a:hover {
+    text-decoration: none; }
+  input[type='submit']:active, input.submit:active, a.button:active, nav a:active {
+    position: relative;
+    top: 1px; }
+  input[type='submit']:hover, input.submit:hover, a.button:hover, nav a:hover {
+    background-color: #8c8c8c;
+    background: -webkit-gradient(linear, left top, left bottom, from(#b3b3b3), to(#8c8c8c));
+    background: -moz-linear-gradient(top, #b3b3b3, #8c8c8c);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b3b3b3', endColorstr='#8c8c8c'); }
+  input[type='submit']:active, input.submit:active, a.button:active, nav a:active {
+    background-color: #b3b3b3;
+    background: -webkit-gradient(linear, left top, left bottom, from(#999999), to(#b3b3b3));
+    background: -moz-linear-gradient(top, #999999, #b3b3b3);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#999999', endColorstr='#b3b3b3');
+    color: #e0e0e0; }
+
+input[type='submit']:hover, input.submit:hover, a.button:hover, nav a:hover {
+  color: #fafafa; }
+
+#wrap {
+  height: 100%;
+  background-color: #aaaaaa;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#aaaaaa));
+  background: -moz-linear-gradient(top, #fafafa, #aaaaaa);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endColorstr='#aaaaaa');
+  padding-top: 70px; }
+
+#container {
+  width: 65%;
+  margin: 0 auto 60px;
+  height: 100%; }
+
+p {
+  font-size: 0.9em; }
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2em; }
+  h1 span {
+    font-size: 0.55em;
+    display: block; }
+
+h3 {
+  margin-top: 20px; }
+
+ul#profiles li {
+  display: block;
+  margin: 3px 0; }
+
+#photo {
+  float: right; }
+
+div.vcard, address.vcard {
+  border: 1px solid #666666;
+  margin: 5px 5px 10px;
+  padding: 5px;
+  font-size: 0.8em;
+  line-height: 1.35em;
+  display: block;
+  width: 450px; }
+  div.vcard img.photo, address.vcard img.photo {
+    padding: 3px 10px 3px 3px;
+    float: left; }
+  div.vcard a, address.vcard a {
+    display: block;
+    font-style: normal; }
+  div.vcard p, address.vcard p {
+    margin: 7px 0 0; }
+
+article p {
+  line-height: 1.4em; }
+
+p.this_vcard {
+  margin-top: 10px; }
